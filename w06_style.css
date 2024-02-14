@@ -1,13 +1,13 @@
-p { color: brown 
-background-color: red }
+p { color: brown; 
+background-color: red; }
 
-a { border: dashed blue
-    font-weight: bold
-    width: 10%px
-    height: 20px}
+a { border: dashed blue;
+    font-weight: bold;
+    width: 10%px;
+    height: 20px;}
 
-li { font-size: 20
-     font-family: "Times" }
+li { font-size: 20;
+     font-family: "Times"; }
 
-img { text-align: center }
+img { text-align: center; }
 
