@@ -1,11 +1,8 @@
 html { background-color: burlywood; }
 
-.M { background-color: chocolate;
-   float: left; }
-.D { background-color: brown;
-   float: left; }
-.W { background-color: blanchedalmond;
-   float: left; }
+.M { background-color: chocolate;}
+.D { background-color: brown;}
+.W { background-color: blanchedalmond;}
 
 .Milk { background-color: chocolate;
        color: brown; 
