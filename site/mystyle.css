@@ -1,17 +1,17 @@
-M { background-color: chocolate;
+.M { background-color: chocolate;
    float: left; }
-D { background-color: brown;
+.D { background-color: brown;
    float: left; }
-W { background-color: blanchedalmond;
+.W { background-color: blanchedalmond;
    float: left; }
 
-Milk { background-color: chocolate;
+.Milk { background-color: chocolate;
        color: brown; 
         float: left;}
-Dark { background-color: brown;
+.Dark { background-color: brown;
        color: crimson;  
       float: left;}
 
-White { background-color: blanchedalmond; 
+.White { background-color: blanchedalmond; 
         color: goldenrod; 
        float: center;}
