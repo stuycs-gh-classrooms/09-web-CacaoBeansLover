@@ -1,8 +1,11 @@
 html { background-color: burlywood; }
 
-.Mbody { background-color: chocolate;}
-.Dbody { background-color: brown;}
-.Wbody { background-color: blanchedalmond;}
+.Mbody { background-color: chocolate;
+         width: 70%; }
+.Dbody { background-color: brown;
+         width: 70%;}
+.Wbody { background-color: blanchedalmond;
+         width: 70%;}
 
 .Milk { background-color: chocolate;
        color: brown; 
