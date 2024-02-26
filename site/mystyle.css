@@ -1,16 +1,16 @@
 M { background-color: chocolate;
-   float: center; }
+   float: left; }
 D { background-color: brown;
-   float: center; }
+   float: left; }
 W { background-color: blanchedalmond;
-   float: center; }
+   float: left; }
 
 Milk { background-color: chocolate;
        color: brown; 
-        float: center;}
+        float: left;}
 Dark { background-color: brown;
        color: crimson;  
-      float: center;}
+      float: left;}
 
 White { background-color: blanchedalmond; 
         color: goldenrod; 
