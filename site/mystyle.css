@@ -6,9 +6,12 @@ W { background-color: blanchedalmond;
    float: center; }
 
 Milk { background-color: chocolate;
-       color: brown; }
+       color: brown; 
+        float: center;}
 Dark { background-color: brown;
-       color: crimson;  }
+       color: crimson;  
+      float: center;}
 
 White { background-color: blanchedalmond; 
-        color: goldenrod; }
+        color: goldenrod; 
+       float: center;}
