@@ -1,16 +1,16 @@
 html { background-color: burlywood; }
 
-.M { background-color: chocolate;}
-.D { background-color: brown;}
-.W { background-color: blanchedalmond;}
+.Mbody { background-color: chocolate;}
+.Dbody { background-color: brown;}
+.Wbody { background-color: blanchedalmond;}
 
 .Milk { background-color: chocolate;
        color: brown; 
-        float: left;}
+       }
 .Dark { background-color: brown;
        color: crimson;  
-      float: left;}
+     }
 
 .White { background-color: blanchedalmond; 
         color: goldenrod; 
-       float: center;}
+      }
