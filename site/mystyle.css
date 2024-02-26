@@ -1,6 +1,9 @@
-M { background-color: chocolate; }
-D { background-color: brown; }
-W { background-color: blanchedalmond; }
+M { background-color: chocolate;
+   float: center; }
+D { background-color: brown;
+   float: center; }
+W { background-color: blanchedalmond;
+   float: center; }
 
 Milk { background-color: chocolate;
        color: brown; }
