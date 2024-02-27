@@ -12,11 +12,11 @@ html { background-color: burlywood; }
 
 .Milk { background-color: chocolate;
        color: brown; 
-       }
+       font-family: Courier New}
 .Dark { background-color: brown;
        color: crimson;  
-     }
+         font-family: Courier New}
 
 .White { background-color: blanchedalmond; 
         color: goldenrod; 
-      }
+         font-family: Courier New }
