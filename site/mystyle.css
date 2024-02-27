@@ -1,4 +1,4 @@
-.Mtml { background-color: chocolate; }
+html { background-color: chocolate; }
 
 .Dtml { background-color: crimson; }
 
@@ -18,10 +18,10 @@
        font-family: Courier New
       }
 .Dark { 
-       color: linen;  
+       color: crimson;  
          font-family: Courier New}
 
 
 .White {
-        color: goldenrod; 
+        color: blanchedalmond; 
          font-family: Courier New }
