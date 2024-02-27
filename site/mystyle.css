@@ -1,22 +1,27 @@
-.Mtml { background-color: burlywood; }
+.Mtml { background-color: chocolate; }
 
-.Mbody { background-color: chocolate;
+.Dtml { background-color: crimson; }
+
+.Wtml {backgorund-color: blanchedalmond; }
+
+.Mbody { background-color: burlywood;
          width: 70%;
          margin: auto;}
-.Dbody { background-color: crimson;
+.Dbody { background-color: burlywood;
          width: 70%;
          margin: auto;}
-.Wbody { background-color: blanchedalmond;
+.Wbody { background-color: burlywood;
          width: 70%;
          margin: auto;}
 
-.Milk { background-color: chocolate;
-       color: brown; 
-       font-family: Courier New}
-.Dark { background-color: crimson;
+.Milk {  color: brown; 
+       font-family: Courier New
+      }
+.Dark { 
        color: linen;  
          font-family: Courier New}
 
-.White { background-color: blanchedalmond; 
+
+.White {
         color: goldenrod; 
          font-family: Courier New }
