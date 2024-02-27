@@ -12,6 +12,10 @@ html { background-color: chocolate; }
          width: 70%;
          margin: auto;}
 
+.M { font-family: Monaco; }
+.D { font-family: Monaco; }
+.W { font-family: Monaco; }
+
 .Milk {  color: brown; 
        font-family: Courier New
       }
