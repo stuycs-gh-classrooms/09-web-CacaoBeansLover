@@ -3,7 +3,7 @@ html { background-color: burlywood; }
 .Mbody { background-color: chocolate;
          width: 70%;
          margin: auto;}
-.Dbody { background-color: brown;
+.Dbody { background-color: crimson;
          width: 70%;
          margin: auto;}
 .Wbody { background-color: blanchedalmond;
@@ -13,8 +13,8 @@ html { background-color: burlywood; }
 .Milk { background-color: chocolate;
        color: brown; 
        font-family: Courier New}
-.Dark { background-color: brown;
-       color: crimson;  
+.Dark { background-color: crimson;
+       color: linen;  
          font-family: Courier New}
 
 .White { background-color: blanchedalmond; 
