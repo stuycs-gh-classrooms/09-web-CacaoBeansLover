@@ -12,9 +12,9 @@ html { background-color: chocolate; }
          width: 70%;
          margin: auto;}
 
-.M { font-family: Monaco; }
-.D { font-family: Monaco; }
-.W { font-family: Monaco; }
+.M { font-family: Monaco; color: Sienna;  }
+.D { font-family: Monaco; color: SaddleBrown; }
+.W { font-family: Monaco; color: SpringGreen; }
 
 .Milk {  color: brown; 
        font-family: Courier New
