@@ -6,6 +6,32 @@ nav { margin: auto;
       background-color: DarkSalmon;
       font-family: Monaco; }
 
+.currentHome { margin: auto; 
+            font-size: 1.4rem;
+            display: grid;
+            background-color: gold;
+            font-family: Monaco; }
+
+.currentWhite { margin: auto; 
+            font-size: 1.4rem;
+            display: grid;
+            background-color: gold;
+            font-family: Monaco; }
+
+.currentDark { margin: auto; 
+            font-size: 1.4rem;
+            display: grid;
+            background-color: gold;
+            font-family: Monaco; }
+
+
+.currentMilk { margin: auto; 
+            font-size: 1.4rem;
+            display: grid;
+            background-color: gold;
+            font-family: Monaco; }
+
+
 p { font-size: 1.2rem; 
     font: bold; }
 
