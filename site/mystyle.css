@@ -4,7 +4,8 @@ nav { margin: auto;
       font-size: 1.2rem;
       display: grid;
       background-color: DarkSalmon;
-      font-family: Monaco;}
+      font-family: Monaco;
+      text-decoration: none;}
 
  body { background-color: burlywood;
          width: 70%;
