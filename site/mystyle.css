@@ -8,7 +8,7 @@ nav { margin: auto;
     
 img {width: auto;
      border: solid black;
-     display: block;
+     display: inline-block;
      }
 
 
