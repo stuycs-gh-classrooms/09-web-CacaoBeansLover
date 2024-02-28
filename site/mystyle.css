@@ -9,7 +9,9 @@ nav { margin: auto;
 
 a { text-decoration: none;
     color: black;
-    font: bold;}
+    font: bold;
+    border: 4mm ridge;
+    border-color: brown;}
     
 
  body { background-color: burlywood;
