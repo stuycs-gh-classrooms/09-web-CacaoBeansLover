@@ -7,7 +7,8 @@ nav { margin: auto;
       font-family: Monaco; }
     
 img {width: auto;
-     border: solid black; }
+     border: solid black;
+     width: auto;}
 
 
 a { text-decoration: none;
