@@ -7,7 +7,8 @@ nav { margin: auto;
       font-family: Monaco; }
     
 
-a { text-decoration: none;}
+a { text-decoration: none;
+    font-size: 1rem;}
 
  body { background-color: burlywood;
          width: 70%;
