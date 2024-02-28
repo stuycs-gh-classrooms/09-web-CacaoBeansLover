@@ -5,6 +5,10 @@ nav { margin: auto;
       float: none;
       display: grid;}
 
+ body { background-color: burlywood;
+         width: 70%;
+         margin: auto;}
+
 .Mbody { background-color: burlywood;
          width: 70%;
          margin: auto;}
