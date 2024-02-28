@@ -1,8 +1,8 @@
 html { background-color: chocolate; }
 
 nav { margin: auto; 
-      font-size: 1.7rem;
-      display: grid;
+      font-size: 1.4rem;
+      display: block;
       background-color: DarkSalmon;
       font-family: Monaco; }
     
