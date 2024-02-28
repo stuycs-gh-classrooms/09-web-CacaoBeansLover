@@ -2,8 +2,8 @@ html { background-color: chocolate; }
 
 nav { margin: auto; 
       font-size: 1.2rem;
-      float: none;
-      display: grid;}
+      display: block;
+      background-color: DarkSalmon;}
 
  body { background-color: burlywood;
          width: 70%;
