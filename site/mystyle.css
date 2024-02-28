@@ -5,7 +5,11 @@ nav { margin: auto;
       display: grid;
       background-color: DarkSalmon;
       font-family: Monaco; }
-    
+
+p { font-size: 1.2rem; 
+    font: bold; }
+
+
 img {width: auto;
      border: solid black;
      display: inline-block;
