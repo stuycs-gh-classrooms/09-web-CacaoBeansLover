@@ -3,7 +3,8 @@ html { background-color: chocolate; }
 nav { margin: auto; 
       font-size: 1.2rem;
       display: block;
-      background-color: DarkSalmon;}
+      background-color: DarkSalmon;
+      font-family: Monaco;}
 
  body { background-color: burlywood;
          width: 70%;
