@@ -6,6 +6,8 @@ nav { margin: auto;
       background-color: DarkSalmon;
       font-family: Monaco; }
     
+img {width: auto;}
+
 
 a { text-decoration: none;
     color: black;
