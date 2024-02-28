@@ -1,6 +1,8 @@
 html { background-color: chocolate; }
 
-
+nav { margin: auto; 
+      font-size: 1em;
+      float: center; }
 
 .Mbody { background-color: burlywood;
          width: 70%;
