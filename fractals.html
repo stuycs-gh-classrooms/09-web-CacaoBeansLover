@@ -1,0 +1,99 @@
+<DOCTYPE html>
+<title> Fractals </title>
+<h1> Koch Curve </h1>
+
+ <p>koch_curve(t, 4, 20) </p> 
+  
+<image>                                 </image>
+  
+<pre><code> 
+def draw_koch(t, depth, length):  
+    if depth == 1:
+        t.fd(length)
+    if depth > 1:
+        draw_koch(t, depth - 1, length)
+        t.lt(60)
+        draw_koch(t, depth - 1, length)
+        t.rt(120)
+        draw_koch(t, depth - 1, length)
+        t.lt(60)
+        draw_koch(t, depth - 1, length)                    
+</code></pre>
+  
+<image>                                 </image>
+
+<pre><code>                     </code></pre>
+  
+<h1> Sierpinkski Triangle </h1>
+
+<p>sierpinski(t, 5, 200) </p>
+  
+<image>                                 </image>
+
+<pre><code>   
+def triangle(t, size):
+    t.lt(60)
+    t.fd(size)
+    t.rt(120)
+    t.fd(size)
+    t.rt(120)
+    t.fd(size)
+    t.rt(180)
+    
+def pinski(t, depth, length):
+  if depth == 1:
+        triangle(t, length)
+    if depth > 1:
+        pinski(t, depth - 1, length / 2)
+        t.fd(length / 2)
+        pinski(t, depth - 1, length / 2)
+        t.fd(-length/2 )
+        t.lt(60)
+        t.fd(length/2)
+        t.rt(60)
+        pinski(t, depth - 1, length / 2)
+        t.rt(120)
+        t.fd(length/2)
+        t.lt(120)                 
+</code></pre>
+
+  
+<image>                                 </image>
+
+
+
+<pre><code>                     </code></pre>
+<h1> Fractal Tree </h1>
+<image>  </image>
+  
+<pre><code>  
+def tree(t, depth, size, angle):
+    if depth == 0:
+        t.fd(size)
+        t.bk(size)
+    else:
+        t.fd(size)
+        t.rt(angle)
+        tree(t, depth-1, size, angle)
+        t.lt(2 * angle)
+        tree(t, depth-1, size, angle)
+        t.rt(angle)
+        t.bk(size)                   
+</code></pre>
+
+
+
+<image>                                 </image>
+<pre><code>                     </code></pre>
+
+
+
+
+
+
+
+
+
+
+  
+</html>
