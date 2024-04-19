@@ -1,7 +1,8 @@
 html { background-color: cornsilk; }
 
+.Name { font-size: 3em; }
 
- body { background-color: LemonChiffon;
+body { background-color: LemonChiffon;
          width: 80%;
          margin: auto;}
 
