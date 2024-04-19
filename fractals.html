@@ -63,28 +63,30 @@ def pinski(t, depth, length):
 <pre><code>                     </code></pre>
 <h1> Fractal Tree </h1>
 <p>Normal: tree(t, 4, 50, 20)</p>
- 
  <img src="tree(t, 4, 50, 20).png" alt="basic true">
   
-<pre><code>  
-def tree(t, depth, size, angle):
+
+
+
+
+<img src="tree_mod(t, 6, 10, 30).png" alt="basic true">
+ 
+<pre><code>
+def tree_mod(t, depth, size, angle):
+    t.pensize(5)
     if depth == 0:
+        t.color(random.randrange(255), random.randrange(255), random.randrange(255))
         t.fd(size)
-        t.bk(size)
     else:
         t.fd(size)
         t.rt(angle)
-        tree(t, depth-1, size, angle)
-        t.lt(2 * angle)
-        tree(t, depth-1, size, angle)
+        tree_mod(t, depth-1, size, angle * 2)
+        t.rt(2 * angle)
+        tree_mod(t, depth-1, size, angle * 2)
         t.rt(angle)
-        t.bk(size)                   
+        t.color(random.randrange(255), random.randrange(255), random.randrange(255))
+        t.bk(size * 3)                     
 </code></pre>
-
-
-
-<image>                                 </image>
-<pre><code>                     </code></pre>
 
 
 
