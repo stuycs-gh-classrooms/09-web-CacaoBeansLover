@@ -29,10 +29,7 @@ def koch_curve(t, depth, length):
         t.lt(120) 
         koch_curve(t, depth - 1, random.randrange(length) )                    
 </code></pre>
-  
-<image>                                 </image>
-
-<pre><code>                     </code></pre>
+ 
   
 <h1> Sierpinkski Triangle </h1>
 
@@ -40,6 +37,8 @@ def koch_curve(t, depth, length):
   
 <img src="sierpinski(t, 5, 200).png" alt="basic koch">
 
+<p>sierpinski(t, 6, 10)</p>
+<img src="sierpinski(t, 6, 10).png" alt="basic koch">
 <pre><code>   
 def triangle(t, size):
     t.lt(60)
@@ -49,28 +48,26 @@ def triangle(t, size):
     t.rt(120)
     t.fd(size)
     t.rt(180)
-    
-def pinski(t, depth, length):
-  if depth == 1:
+
+def sierpinski(t, depth, length):
+    if depth == 1:
         triangle(t, length)
     if depth > 1:
-        pinski(t, depth - 1, length / 2)
-        t.fd(length / 2)
-        pinski(t, depth - 1, length / 2)
-        t.fd(-length/2 )
-        t.lt(60)
-        t.fd(length/2)
+        t.pencolor("red")
+        t.pensize(random.randrange(5))
+        sierpinski(t, depth - 1, length * 1.5 )
+        t.penup()
+        t.fd(length)
+        t.pendown()
         t.rt(60)
-        pinski(t, depth - 1, length / 2)
-        t.rt(120)
-        t.fd(length/2)
-        t.lt(120)                 
+        t.pencolor("blue")
+        sierpinski(t, depth - 1, length * 1.5 )              
 </code></pre>
 
 
 
 
-<pre><code>                     </code></pre>
+
 <h1> Fractal Tree </h1>
 <p>Normal: tree(t, 4, 50, 20)</p>
  <img src="tree(t, 4, 50, 20).png" alt="basic true">
