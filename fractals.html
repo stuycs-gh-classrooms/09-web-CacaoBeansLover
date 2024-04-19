@@ -5,19 +5,29 @@
  <p>Normal: koch_curve(t, 4, 20) </p> 
   
 <img src="koch_curve(t, 4, 20).png" alt="basic koch">
-  
+
+
+  <p>Normal: koch_curve(t, 6, 50) </p> 
+<img src="koch_curvemod(t, 6, 50).png" alt="basic koch">
+
 <pre><code> 
-def draw_koch(t, depth, length):  
+def koch_curve(t, depth, length):
     if depth == 1:
         t.fd(length)
     if depth > 1:
-        draw_koch(t, depth - 1, length)
+        koch_curve(t, depth - 1, random.randrange(length) )
+        t.color(random.randrange(255),random.randrange(255),random.randrange(255))
         t.lt(60)
-        draw_koch(t, depth - 1, length)
+        koch_curve(t, depth - 1, random.randrange(length) )
+        t.color(random.randrange(255),random.randrange(255),random.randrange(255))
         t.rt(120)
-        draw_koch(t, depth - 1, length)
+        koch_curve(t, depth - 1, random.randrange(length) )
+        t.color(random.randrange(255),random.randrange(255),random.randrange(255))
         t.lt(60)
-        draw_koch(t, depth - 1, length)                    
+        koch_curve(t, depth - 1, random.randrange(length) )
+        t.color(random.randrange(255),random.randrange(255),random.randrange(255))
+        t.lt(120) 
+        koch_curve(t, depth - 1, random.randrange(length) )                    
 </code></pre>
   
 <image>                                 </image>
