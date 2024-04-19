@@ -46,7 +46,17 @@ def koch_curve(t, depth, length):
   
 <img src="sierpinski(t, 5, 200).png" alt="basic koch">
 
-<p>Modified: sierpinski(t, 6, 10)</p>
+<p>
+ Modifications:
+ <ul>
+  <li>Pensize is random between the ranges of 1 and 5</li>
+  <li>As the depth increases, the length increases by a multiplier of 1.5x</li>
+  <li>As the depth increase, the triangles will alternate between the colors red and blue</li>
+  <li>A sierpinski function has been removed and most of the turning commands have also been removed to avoid being incredibly messy</li>
+  <li>The fd command tells the turtle to move forward by length instead of length/2</li>
+ </ul>
+ Modified: sierpinski(t, 6, 10)
+</p>
 <img src="sierpinski_mod(t, 6, 10).png" alt="basic koch">
 <pre><code>   
 def triangle(t, size):
