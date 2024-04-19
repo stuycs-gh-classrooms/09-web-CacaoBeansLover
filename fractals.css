@@ -2,8 +2,7 @@ html { background-color: cornsilk; }
 
 .Name { font-size: 3em; }
 
-h1 { margin-left: auto;
-     margin-right: auto;}
+h1 { text-align: center;}
 
 body { background-color: LemonChiffon;
          width: 80%;
