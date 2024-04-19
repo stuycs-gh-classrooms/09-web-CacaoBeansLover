@@ -4,7 +4,7 @@
 <h1 class="Name">Fractals</h1>
 <h1> Koch Curve </h1>
 
- <p>Normal: koch_curve(t, 4, 20) </p> 
+<p class="Func">Normal: koch_curve(t, 4, 20) </p> 
   
 <img src="koch_curve(t, 4, 20).png" alt="basic koch">
 
@@ -17,8 +17,10 @@
    <li>There is an extra left turn 120 degrees and an extra koch_curve command which follows the same pattern as the other functions: 
        a random color and a random length less than the length parameter</li>
    </ul>
-   Modified: koch_curve(t, 6, 50) 
-  </p> 
+  </p>
+  
+ <p class="Func"> Modified: koch_curve(t, 6, 50) </p> 
+
 <img src="koch_curvemod(t, 6, 50).png" alt="basic koch">
 
 <pre><code> 
@@ -44,7 +46,7 @@ def koch_curve(t, depth, length):
   
 <h1> Sierpinkski Triangle </h1>
 
-<p>Normal: sierpinski(t, 5, 200) </p>
+<p class="Func">Normal: sierpinski(t, 5, 200) </p>
   
 <img src="sierpinski(t, 5, 200).png" alt="basic koch">
 
@@ -57,8 +59,8 @@ def koch_curve(t, depth, length):
   <li>A sierpinski function has been removed and most of the turning commands have also been removed to avoid being incredibly messy</li>
   <li>The fd command tells the turtle to move forward by length instead of length/2</li>
  </ul>
- Modified: sierpinski(t, 6, 10)
 </p>
+<p class="Func"> Modified: sierpinski(t, 6, 10)</p>  
 <img src="sierpinski_mod(t, 6, 10).png" alt="basic koch">
 <pre><code>   
 def triangle(t, size):
@@ -90,7 +92,7 @@ def sierpinski(t, depth, length):
 
 
 <h1> Fractal Tree </h1>
-<p>Normal: tree(t, 4, 50, 20)</p>
+<p class="Func">Normal: tree(t, 4, 50, 20)</p>
  <img src="tree(t, 4, 50, 20).png" alt="basic true">
   
 
@@ -105,8 +107,8 @@ def sierpinski(t, depth, length):
   <li>The other tree functions called in the modification now contain two times the original angle measure</li>
   <li>At the end of the function t.bk(size) has been changed to t.bk(size * 3) </li>
  </ul>
- Modified: tree(t, 6, 10, 30)
 </p>
+ <p class="Func">Modified: tree(t, 6, 10, 30)</p>
 <img src="tree_mod(t, 6, 10, 30).png" alt="basic true">
  
 <pre><code>
