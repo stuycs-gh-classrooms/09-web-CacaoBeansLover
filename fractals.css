@@ -6,6 +6,7 @@ html { background-color: cornsilk; }
          margin: auto;}
 
 img {width: 80%;
+     height: 80%
      margin-left: auto;
      margin-right: auto;
      border: solid black;
